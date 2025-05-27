@@ -41,7 +41,7 @@ int main() {
 
     printf("Sum of elements above the secondary diagonal: %d\n", sum);
 
-    // Освобождение памяти
+   
     for (int i = 0; i < n; i++)
         free(A[i]);
     free(A);
